@@ -1,0 +1,82 @@
+{
+    "breakfast": [
+      {
+        "id": 1,
+        "name": "American Coffee",
+        "price": 5.00,
+        "image": ""
+      },
+      {
+        "id": 2,
+        "name": "Coffe & Milk",
+        "price": 7.00,
+        "image": ""
+      },
+      {
+        "id": 3,
+        "name": "Cheese & Jam Sandwich",
+        "price": 10.00,
+        "image": ""
+      },
+      {
+        "id": 4,
+        "name": "Fruit Juice",
+        "price": 7.00,
+        "image": ""
+      }
+    ],
+    "burgers": [
+      {
+        "id": 5,
+        "name": "Simple Burger",
+        "price": 10.00,
+        "image": ""
+      },
+      {
+        "id": 6,
+        "name": "Double Burger",
+        "price": 15.00,
+        "image": ""
+      }
+    ],
+    "side dishes": [
+      {
+        "id": 7,
+        "name": "French Fries",
+        "price": 5.00,
+        "image": ""
+      },
+      {
+        "id": 8,
+        "name": "Onion Rings",
+        "price": 5.00,
+        "image": ""
+      }
+    ],
+    "drinks": [
+      {
+        "id": 9,
+        "name": "Water 500ML",
+        "price": 5.00,
+        "image": ""
+      },
+      {
+        "id": 10,
+        "name": "Water 700ML",
+        "price": 2.00,
+        "image": ""
+      },
+      {
+        "id": 11,
+        "name": "Soda 500ML",
+        "price": 7.00,
+        "image": ""
+      },
+      {
+        "id": 12,
+        "name": "Soda 700ML",
+        "price": 10.00,
+        "image": ""
+      }
+    ]
+}
