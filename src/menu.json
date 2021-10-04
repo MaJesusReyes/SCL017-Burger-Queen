@@ -39,6 +39,11 @@
         "image": ""
       }
     ],
+    "typeBurgir": ["Vacuno", "Pollo", "Vegetariana"],
+    "add": [
+        { "name": "Queso", "price": 1, "id": "9" },
+        { "name": "Huevo", "price": 1, "id": "10" }
+  ],
     "side dishes": [
       {
         "id": 7,
