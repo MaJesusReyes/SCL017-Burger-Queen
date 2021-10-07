@@ -1,13 +1,69 @@
-*{
-  background-color: blueviolet;
-}
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
 
-.container {
-  display: flex;
-  width: 100vw;
-  height: 100vh;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: center;
+
+    .container{
+      margin: 0;
+      padding: 0;
+    }
+
+    .page_container{
+      margin: 0%;
+      padding: 0%;
+      display: flex;
+      flex-direction: row;
+    }
+
+    .left_container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      grid-gap: 8rem;
+      padding-left: 2.5rem;
+    }
+
+    .lobby_btn{
+      font-family: 'Amatic SC', cursive;
+      font-weight: bold;
+      font-size: 60px;
+      color: rgb(29, 29, 29);
+      background-color: #F8C43F;;
+      text-align: center;
+      height: 7rem;
+      width: 20rem;
+      margin-left: 2rem;
+      border: 1px solid #494322;
+      border-radius: 20px;
+      outline: none;
+      cursor: pointer;
+    }
+
+    .right_container{
+      justify-content: center;
+      padding-right: 5rem;
+      padding-left: 3rem;
+      background-color: #f8c43f65;
+      margin-left: 10%;
+    }
+
+    .right_container p{
+      font-family: 'Amatic SC';
+      font-weight: bold;
+      color: rgb(0, 0, 0);
+      padding-left: 3rem;
+      font-size: 60px;
+    }
+
+    .lobby_logo{
+      padding-left: 3rem;
+      width: 40vw;
+    }
+
+    
+    
 }
 
