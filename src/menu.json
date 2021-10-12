@@ -2,86 +2,121 @@
     "breakfast": [
       {
         "id": 1,
-        "name": "American Coffee",
-        "price": 5.00,
-        "image": ""
+        "name": "Eggster",
+        "description": "Spiced deviled eggs & candied bacon",
+        "price": 9.00,
+        "image": "https://i.imgur.com/rOzjMNi.png"
       },
       {
         "id": 2,
-        "name": "Coffe & Milk",
+        "name": "Ring-A-Ding",
+        "description": "Cranberry nut oatmeal toped with sweet strawberry sauce",
         "price": 7.00,
-        "image": ""
+        "image": "https://i.imgur.com/mossWTe.png"
       },
       {
         "id": 3,
-        "name": "Cheese & Jam Sandwich",
+        "name": "Ratty Rat",
+        "description": "Cheese & Jam Sandwich",
         "price": 10.00,
-        "image": ""
+        "image": "https://i.imgur.com/n4eOQWM.png"
       },
       {
         "id": 4,
-        "name": "Fruit Juice",
-        "price": 7.00,
-        "image": ""
+        "name": "Cranky Parade",
+        "description": "Fruit based waffles served with whipped cream",
+        "price": 10.00,
+        "image": "https://i.imgur.com/ZCE8uMz.png"
       }
     ],
     
     "lunch": [
       {
         "id": 5,
-        "name": "Simple Burger",
+        "name": "Ratty Rat",
+        "description": "Simple Burger",
         "price": 10.00,
         "image": ""
       },
       {
         "id": 6,
-        "name": "Double Burger",
+        "name": "Ratty Rat",
+        "description": "Double Burger",
         "price": 15.00,
         "image": ""
       },
       {
         "id": 7,
-        "name": "French Fries",
+        "name": "Ratty Rat",
+        "description": "French Fries",
         "price": 5.00,
         "image": ""
       },
       {
         "id": 8,
-        "name": "Onion Rings",
+        "name": "Ratty Rat",
+        "description": "Onion Rings",
         "price": 5.00,
         "image": ""
       },
       {
         "id": 9,
-        "name": "Water 500ML",
+        "name": "Ratty Rat",
+        "description": "Water 500ML",
         "price": 5.00,
         "image": ""
       },
       {
         "id": 10,
-        "name": "Water 700ML",
+        "name": "Ratty Rat",
+        "description": "Water 700ML",
         "price": 2.00,
         "image": ""
       },
       {
         "id": 11,
-        "name": "Soda 500ML",
+        "name": "Ratty Rat",
+        "description": "Soda 500ML",
         "price": 7.00,
         "image": ""
       },
       {
         "id": 12,
-        "name": "Soda 700ML",
+        "name": "Ratty Rat",
+        "description": "Soda 700ML",
         "price": 10.00,
         "image": ""
       }
     ],
-
-    "typeBurgir": ["Vacuno", "Pollo", "Vegetariana"],
-    "add": [
-        { "name": "Queso", "price": 1, "id": "9" },
-        { "name": "Huevo", "price": 1, "id": "10" }
-  ]
     
-    
+    "drinks": [
+      {
+        "id": 13,
+        "name": "Wizard",
+        "description": "American Coffee",
+        "price": 5.00,
+        "image": "https://i.imgur.com/07HreNW.png"
+      },
+      {
+        "id": 14,
+        "name":"Warlock Step",
+        "description": "Coffe & Milk",
+        "price": 7.00,
+        "image": "https://i.imgur.com/cpZ1rXy.png"
+      },
+      {
+        "id": 15,
+        "name": "Ratty Rat",
+        "description": "Cheese & Jam Sandwich",
+        "price": 10.00,
+        "image": "https://i.imgur.com/n4eOQWM.png"
+      },
+      {
+        "id": 16,
+        "name": "Poison Pot",
+        "description": "Fruit Juice",
+        "price": 7.00,
+        "image": "https://i.imgur.com/0Dn7eCf.png"
+      }
+    ]
 }
