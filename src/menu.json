@@ -25,7 +25,8 @@
         "image": ""
       }
     ],
-    "burgers": [
+    
+    "lunch": [
       {
         "id": 5,
         "name": "Simple Burger",
@@ -37,14 +38,7 @@
         "name": "Double Burger",
         "price": 15.00,
         "image": ""
-      }
-    ],
-    "typeBurgir": ["Vacuno", "Pollo", "Vegetariana"],
-    "add": [
-        { "name": "Queso", "price": 1, "id": "9" },
-        { "name": "Huevo", "price": 1, "id": "10" }
-  ],
-    "side dishes": [
+      },
       {
         "id": 7,
         "name": "French Fries",
@@ -56,9 +50,7 @@
         "name": "Onion Rings",
         "price": 5.00,
         "image": ""
-      }
-    ],
-    "drinks": [
+      },
       {
         "id": 9,
         "name": "Water 500ML",
@@ -83,5 +75,13 @@
         "price": 10.00,
         "image": ""
       }
-    ]
+    ],
+
+    "typeBurgir": ["Vacuno", "Pollo", "Vegetariana"],
+    "add": [
+        { "name": "Queso", "price": 1, "id": "9" },
+        { "name": "Huevo", "price": 1, "id": "10" }
+  ]
+    
+    
 }

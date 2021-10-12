@@ -6,7 +6,7 @@ export const Lobby = () => {
     let history = useHistory();
 
     return(
-    <div class='container'>
+    <div className='container'>
     
     <div className='page_container'>
     <div className='left_container'>
