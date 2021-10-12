@@ -3,29 +3,29 @@
       {
         "id": 1,
         "name": "Eggster",
-        "description": "Spiced deviled eggs & candied bacon",
+        "description": "Spiced deviled eggs",
         "price": 9.00,
         "image": "https://i.imgur.com/rOzjMNi.png"
       },
       {
         "id": 2,
         "name": "Ring-A-Ding",
-        "description": "Cranberry nut oatmeal toped with sweet strawberry sauce",
+        "description": "Cranberry nut oatmeal",
         "price": 7.00,
         "image": "https://i.imgur.com/mossWTe.png"
       },
       {
         "id": 3,
         "name": "Ratty Rat",
-        "description": "Cheese & Jam Sandwich",
-        "price": 10.00,
+        "description": "Grilled Cheese & Jam Sandwich",
+        "price": 5.00,
         "image": "https://i.imgur.com/n4eOQWM.png"
       },
       {
         "id": 4,
         "name": "Cranky Parade",
-        "description": "Fruit based waffles served with whipped cream",
-        "price": 10.00,
+        "description": "Fruit based waffles",
+        "price": 8.00,
         "image": "https://i.imgur.com/ZCE8uMz.png"
       }
     ],
@@ -33,89 +33,61 @@
     "lunch": [
       {
         "id": 5,
-        "name": "Ratty Rat",
-        "description": "Simple Burger",
+        "name": "Large Armor",
+        "description": "Classic Simple Burger",
         "price": 10.00,
-        "image": ""
+        "image": "https://i.imgur.com/Qro2F87.png"
       },
       {
         "id": 6,
-        "name": "Ratty Rat",
-        "description": "Double Burger",
-        "price": 15.00,
-        "image": ""
+        "name": "Blurrfish",
+        "description": "Fried Fish Stricks",
+        "price": 8.00,
+        "image": "https://i.imgur.com/dixD3mB.png"
       },
       {
         "id": 7,
-        "name": "Ratty Rat",
-        "description": "French Fries",
+        "name": "Bag O' Coal",
+        "description": "Spicy French Fries",
         "price": 5.00,
-        "image": ""
+        "image": "https://i.imgur.com/siainN3.png"
       },
       {
         "id": 8,
-        "name": "Ratty Rat",
-        "description": "Onion Rings",
+        "name": "Gear Golem",
+        "description": "Onion Rings salted with Pepper",
         "price": 5.00,
-        "image": ""
-      },
-      {
-        "id": 9,
-        "name": "Ratty Rat",
-        "description": "Water 500ML",
-        "price": 5.00,
-        "image": ""
-      },
-      {
-        "id": 10,
-        "name": "Ratty Rat",
-        "description": "Water 700ML",
-        "price": 2.00,
-        "image": ""
-      },
-      {
-        "id": 11,
-        "name": "Ratty Rat",
-        "description": "Soda 500ML",
-        "price": 7.00,
-        "image": ""
-      },
-      {
-        "id": 12,
-        "name": "Ratty Rat",
-        "description": "Soda 700ML",
-        "price": 10.00,
-        "image": ""
+        "image": "https://i.imgur.com/InvHM2G.png"
       }
     ],
     
     "drinks": [
       {
-        "id": 13,
-        "name": "Wizard",
-        "description": "American Coffee",
-        "price": 5.00,
-        "image": "https://i.imgur.com/07HreNW.png"
+        "id": 9,
+        "name": "Choc O' Gargoyle",
+        "description": "Hot Chocolate Cocoa",
+        "price": 7.00,
+        "image": "https://i.imgur.com/eFLJtIw.png"
       },
       {
-        "id": 14,
+        "id": 10,
         "name":"Warlock Step",
         "description": "Coffe & Milk",
-        "price": 7.00,
+        "price": 5.00,
         "image": "https://i.imgur.com/cpZ1rXy.png"
       },
       {
-        "id": 15,
-        "name": "Ratty Rat",
-        "description": "Cheese & Jam Sandwich",
-        "price": 10.00,
-        "image": "https://i.imgur.com/n4eOQWM.png"
+        "id": 11,
+        "name": "Rainy Loudmouth",
+        "description": "Carbonated Water",
+        "price": 1.00,
+        "image": "https://i.imgur.com/bI9fcMD.png"
       },
       {
-        "id": 16,
+        "id": 12,
         "name": "Poison Pot",
-        "description": "Fruit Juice",
-        "price": 7.00,
+        "description": "Natural Fruit Juice",
+        "price": 4.00,
         "image": "https://i.imgur.com/0Dn7eCf.png"
       }
     ]

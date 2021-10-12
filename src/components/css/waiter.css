@@ -47,7 +47,6 @@
         position: absolute;
         margin: auto;
         width: 30rem;
-        margin-top: 1rem;
         margin-left: 8rem;
         display: grid;
         grid-template-columns: auto auto;
@@ -74,7 +73,7 @@
       }
 
       .img-container {
-        height: 200px;
+        height: 195px;
         width: 210px;
         overflow: hidden;
         border-radius: 0px 0px 15px 20px;
@@ -96,11 +95,11 @@
         border-radius: 20px;
         overflow: hidden;
         padding: 0px;
-        transform: skew(0deg, 13deg);
+        transform: skew(0deg, 10deg);
         font-size: 0px;
         margin: 20px 0px 0px 0px;
         background: #fff2fb;
-        height: 250px;
+        height: 245px;
         width: 200px;
       }
 
