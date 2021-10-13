@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+
+.menu_container{
+    position: absolute;
+    width: 30rem;
+    margin-top: 0.5rem;
+    margin-left: 7rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-auto-rows: auto auto auto auto;
+    grid-column-gap: 2rem;
+    column-gap: 1rem;
+  }
+
+  .menu_container h1{
+    margin: 0 auto;
+    text-align: left;
+    font-family: 'Amatic SC';
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(167, 56, 15, 0.438);
+  }
+
+  .card-menu {
+    display: flex;
+    width: 10rem;
+    margin: 10% 20%;
+    background: none;
+    border-radius: 20px;
+    cursor: pointer;
+    flex-direction: column;
+  }
+
+  .card-menu:hover{
+    transform: scale(1.05);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+  }
+
+  .img-container {
+    height: 195px;
+    width: 210px;
+    overflow: hidden;
+    border-radius: 0px 0px 15px 20px;
+    display: inline-block;
+  }
+  
+  .img-container img {
+    transform: skew(0deg, -13deg);
+    padding-top: 50px;
+    padding-left: 55px;
+    height: 205px;
+    margin: -35px 0px 0px -40px;
+    -webkit-filter: drop-shadow(5px 5px 5px rgb(17, 17, 17));
+    filter: drop-shadow(5px 5px 5px rgb(15, 15, 15));
+  }
+  
+  .inner-skew {
+    display: inline-block;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 0px;
+    transform: skew(0deg, 10deg);
+    font-size: 0px;
+    margin: 20px 0px 0px 0px;
+    background: #fff2fb;
+    height: 245px;
+    width: 200px;
+  }
+
+  .card-body{
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    padding: 125px 20px 5px 20px;
+    border-radius: 20px;
+    background: rgb(36, 34, 34);
+    margin: -120px 0px 0px 0px;
+    line-height: 19px;
+    font-size: 14px;
+    width: 215px;
+  }
+
+  .card-title {
+    text-align: center;
+    font-family: 'Amatic SC';
+    color: rgb(255, 194, 28);
+    font-size: 35px;
+  }
+
+  .card-description{
+    text-align: center;
+    font-family: 'Amatic SC';
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+  }
+
+  .card-price {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Amatic SC';
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 103, 32, 0.322);
+  }
+}
