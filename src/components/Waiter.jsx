@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import data from '../menu.json';
+import { OrderTable } from "./OrderTable";
 import { Menu } from "./Menu";
 import { Sidebar } from "./Sidebar";
 import "../components/css/waiter.css";
@@ -24,8 +25,22 @@ export const Waiter = () => {
         setName('Drinks');
     };
 
+
+    const [cart, setCart] = useState([]);
+    const onAdd = (item) => {
+      setCart([...cart, item])
+    }
+
+    const onRemove = (item) => {
+      let cartDuplicate = [...cart];
+      cartDuplicate = cartDuplicate.filter((cartItem) => cartItem.id !== item.id)
+      setCart(cartDuplicate);
+    }
+
+
     return (
       <div className='page_Container'>
+
       <Sidebar
       displayBreakfast={displayBreakfast}
       displayLunch={displayLunch}
@@ -34,9 +49,14 @@ export const Waiter = () => {
 
       <Menu
       menu={menu}
-      name={name}/>
+      name={name}
+      onAdd={onAdd}
+      />
  
-
+      <OrderTable 
+      cart={cart}
+      onRemove={onRemove}
+      />
 
       </div>
     );

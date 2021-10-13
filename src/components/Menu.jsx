@@ -3,13 +3,13 @@ import data from '../menu.json'
 import "../components/css/menu.css";
 
 export const Menu = (props) => {
-const {menu, name} = props;
+const {menu, name, onAdd} = props;
 
 return(
     <div className='menu_container'>
     <h1>{name}</h1>{'\ n'}
     {menu.map((item) => (
-      <div key={item.id} className="card-menu">
+      <div key={item.id} className="card-menu" onClick={()=>onAdd(item)}>
             <div className="img-container">
               <div className="img-inner">
                 <div className="inner-skew">
