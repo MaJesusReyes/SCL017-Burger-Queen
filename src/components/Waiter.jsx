@@ -28,7 +28,7 @@ export const Waiter = () => {
 
     const [cart, setCart] = useState([]);
     const onAdd = (item) => {
-      setCart([...cart, item])
+      setCart([...cart, item]);
     }
 
     const onRemove = (item) => {
