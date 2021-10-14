@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import data from '../menu.json';
 import { OrderTable } from "./OrderTable";
 import { Menu } from "./Menu";
@@ -37,6 +37,18 @@ export const Waiter = () => {
       setCart(cartDuplicate);
     }
 
+    const[cartTotal, setCartTotal] = useState(0);
+    useEffect(() => {
+      total();
+    }, [cart]);
+
+    const total = () => {
+      let totalVal = 0;
+      for (let i=0; i< cart.length; i++){
+        totalVal += cart[i].price;
+      } 
+      setCartTotal(totalVal);
+    }
 
     return (
       <div className='page_Container'>
@@ -56,6 +68,7 @@ export const Waiter = () => {
       <OrderTable 
       cart={cart}
       onRemove={onRemove}
+      cartTotal={cartTotal}
       />
 
       </div>

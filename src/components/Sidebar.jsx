@@ -1,5 +1,4 @@
 import React from "react";
-import data from '../menu.json'
 import "../components/css/sidebar.css";
 
 export const Sidebar= (props) => {

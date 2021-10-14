@@ -1,5 +1,4 @@
 import React from "react";
-import data from '../menu.json'
 import "../components/css/menu.css";
 
 export const Menu = (props) => {
@@ -13,7 +12,7 @@ return(
             <div className="img-container">
               <div className="img-inner">
                 <div className="inner-skew">
-                  <img src={item.image}/>
+                  <img src={item.image} alt='product_img'/>
                 </div>
               </div>
             </div>

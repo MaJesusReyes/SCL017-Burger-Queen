@@ -24,5 +24,20 @@
         font-size: 35px;
     }
 
+    .delete_btn{
+      font-weight: bold;
+      background: none;
+      border: none;
+      text-decoration: none;
+      color: crimson;
+      font-size: 30px;
+    }
+
+    .petition_table{
+      font-family: 'Amatic SC';
+      font-size: 25px;
+      font-weight: bold;
+    }
+
 
   }
