@@ -28,14 +28,30 @@ export const Waiter = () => {
 
     const [cart, setCart] = useState([]);
     const onAdd = (item) => {
-      setCart([...cart, item]);
-    }
+      const exist =cart.find((cartItem) => cartItem.id === item.id );
+        if (exist) {
+          setCart(
+            cart.map((cartItem) => 
+              cartItem.id === item.id ? {...exist, quantity: exist.quantity + 1} : cartItem
+            )
+          )
+        } else {
+          setCart([...cart, {...item, quantity: 1}]);
+        }
+    };
 
     const onRemove = (item) => {
-      let cartDuplicate = [...cart];
-      cartDuplicate = cartDuplicate.filter((cartItem) => cartItem.id !== item.id)
-      setCart(cartDuplicate);
-    }
+      const exist =cart.find((cartItem) => cartItem.id === item.id );
+      if (exist.quantity === 1) {
+        setCart(cart.filter((cartItem) => cartItem.id !== item.id))
+      } else {
+        setCart(
+          cart.map((cartItem) =>
+              cartItem.id === item.id ? {...exist, quantity: exist.quantity - 1} : cartItem
+          )
+        );
+      }
+    };
 
     const[cartTotal, setCartTotal] = useState(0);
     useEffect(() => {
@@ -43,10 +59,7 @@ export const Waiter = () => {
     }, [cart]);
 
     const total = () => {
-      let totalVal = 0;
-      for (let i=0; i< cart.length; i++){
-        totalVal += cart[i].price;
-      } 
+      let totalVal = cart.reduce((a, c) => a + c.quantity * c.price, 0);
       setCartTotal(totalVal);
     }
 
