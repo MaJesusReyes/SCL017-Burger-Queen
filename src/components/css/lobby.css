@@ -61,6 +61,8 @@
     .lobby_logo{
       padding-left: 3rem;
       width: 40vw;
+      -webkit-filter: drop-shadow(5px 5px 5px rgb(17, 17, 17));
+      filter: drop-shadow(5px 5px 5px rgb(15, 15, 15));
     }
 
     
